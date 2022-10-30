@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='styles/formulario.css')}}"
+    />
+    <title>Editar</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 align="center">Editar Tractor</h3>
+      <form action="" method="POST" class="formulario">
+        {{forma.csrf_token}}
+        <p class="field field_v3">
+          {{forma.numero.label(class="ha-screen-reader")}}<br />
+          {{forma.numero(size=30,class="field__input")}}
+          <span class="field__label-wrap" aria-hidden="true">
+            {{forma.numero.label(class="field__label")}}<br />
+          </span>
+        </p>
+        <p class="field field_v3">
+          {{forma.placas.label(class="ha-screen-reader")}}<br />
+          {{forma.placas(size=30,class="field__input")}}
+          <span class="field__label-wrap" aria-hidden="true">
+            {{forma.placas.label(class="field__label")}}<br />
+          </span>
+        </p>
+        <p class="field field_v3">
+          {{forma.marca.label(class="ha-screen-reader")}}<br />
+          {{forma.marca(size=30,class="field__input")}}
+          <span class="field__label-wrap" aria-hidden="true">
+            {{forma.marca.label(class="field__label")}}<br />
+          </span>
+        </p>
+        <p class="field field_v3">
+          {{forma.modelo.label(class="ha-screen-reader")}}<br />
+          {{forma.modelo(size=30,class="field__input")}}
+          <span class="field__label-wrap" aria-hidden="true">
+            {{forma.modelo.label(class="field__label")}}<br />
+          </span>
+        </p>
+        {{forma.enviar()}}
+      </form>
+    </div>
+  </body>
+</html>

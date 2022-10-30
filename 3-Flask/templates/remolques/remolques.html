@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='styles/listado.css')}}"
+    />
+    <title>Remolques</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 align="center">Remolques</h2>
+      <div class="opciones">
+        <a href="{{url_for('inicio')}}">Index</a>
+        <a href="{{url_for('agregarRemolque')}}">Agregar</a>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Número</th>
+              <th>Placas</th>
+              <th>Tipo</th>
+              <th>-</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for remolque in remolques %}
+            <tr>
+              <td>{{remolque.numero}}</td>
+              <td>{{remolque.placas}}</td>
+              <td>{{remolque.tipo}}</td>
+              <td>
+                <a href="{{url_for('editarRemolque', id=remolque.id)}}"
+                  >Editar</a
+                >
+                <a href="{{url_for('eliminarRemolque', id=remolque.id)}}"
+                  >Eliminar</a
+                >
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

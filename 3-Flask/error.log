@@ -1,0 +1,555 @@
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:06] "GET / HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+ERROR:app:choferes.html
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:08] "[35m[1mGET /choferes HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:08] "GET /choferes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:08] "GET /choferes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:08] "GET /choferes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:08] "GET /choferes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 19:59:08] "[36mGET /choferes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:app:Se obtuvieron los choferes
+ERROR:app:choferes.html
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:00:16] "GET /choferes HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+ERROR:app:choferes.html
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:00:21] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:00:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:00:57] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:01:18] "[33mGET /chofer HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:01:23] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:root:Se agregó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:01:36] "[32mPOST /choferes/agregar HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:01:36] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:02:06] "GET /choferes/editar/2 HTTP/1.1" 200 -
+INFO:root:Se editó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:02:11] "[32mPOST /choferes/editar/2 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:02:11] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:02:13] "[32mGET /choferes/eliminar/2 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:02:13] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:17] "GET / HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:19] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:20] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:root:Se agregó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:27] "[32mPOST /choferes/agregar HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:27] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:29] "GET /choferes/editar/3 HTTP/1.1" 200 -
+INFO:root:Se editó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:42] "[32mPOST /choferes/editar/3 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:42] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:44] "[32mGET /choferes/eliminar/3 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:44] "GET /choferes HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:51] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:52] "GET /tractores/agregar HTTP/1.1" 200 -
+INFO:root:Se agregó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:56] "[32mPOST /tractores/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:56] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:07:58] "GET /tractores/editar/2 HTTP/1.1" 200 -
+INFO:root:Se editó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:03] "[32mPOST /tractores/editar/2 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:03] "GET /tractores HTTP/1.1" 200 -
+INFO:root:Se eliminó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:05] "[32mGET /tractores/eliminar/2 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:05] "GET /tractores HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:11] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:15] "GET /remolques/agregar HTTP/1.1" 200 -
+INFO:root:Se agregó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:17] "[32mPOST /remolques/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:17] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:19] "GET /remolques/editar/2 HTTP/1.1" 200 -
+INFO:root:Se editó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:23] "[32mPOST /remolques/editar/2 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:23] "GET /remolques HTTP/1.1" 200 -
+INFO:root:Se eliminó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:24] "[32mGET /remolques/eliminar/2 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:24] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:08:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:12:33] "GET /choferes HTTP/1.1" 200 -
+ERROR:root:Encountered unknown tag 'static'.
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:12:34] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:13:42] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:13:42] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:13:52] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:14:17] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:14:17] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:14:22] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:14:51] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:14:51] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:15:05] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:15:05] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:15:12] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:15:12] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:16:17] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:16:17] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:25:52] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:25:52] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:31:49] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:31:49] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:31:51] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:31:51] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:31:59] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:31:59] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:32:41] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:32:41] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:33:53] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:33:53] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:37:13] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:37:13] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:37:39] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:37:39] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:38:28] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:38:29] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:38:39] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:38:39] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:38:53] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:38:53] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:08] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:08] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:20] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:20] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:20] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:21] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:32] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:32] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:34] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:39:34] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:40:09] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:40:09] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:41:48] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:41:48] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:42:18] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:42:18] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:42:31] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:42:31] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:45:05] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:45:05] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:45:26] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:45:26] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:45:27] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:45:27] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:46:30] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:46:30] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:49:31] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:49:31] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:root:Se agregó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:49:42] "[32mPOST /choferes/agregar HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:49:42] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:50:43] "GET /choferes/editar/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:50:45] "GET /choferes/editar/4 HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:51:09] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:51:10] "GET /choferes/editar/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:51:10] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:51:54] "GET /choferes/editar/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:51:54] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:52:00] "[32mPOST /choferes/editar/4 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:52:00] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:54:25] "GET / HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:54:26] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:54:27] "GET /remolques/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:54:27] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:54:34] "GET /remolques/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:54:34] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:55:54] "[32mPOST /remolques/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:55:54] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:55:55] "GET /remolques/editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:55:55] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:55:59] "[32mPOST /remolques/editar/3 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:55:59] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:58:29] "GET / HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:58:30] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:58:32] "GET /tractores/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:58:32] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:58:41] "[32mPOST /tractores/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 20:58:41] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:00:23] "GET /tractores/editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:00:23] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:00:27] "[32mPOST /tractores/editar/3 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:00:27] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:00:29] "GET /tractores/editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:00:29] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:01:31] "GET /tractores/editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:01:31] "GET /static/styles/formulario.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:04:41] "[33mGET /tractores/ HTTP/1.1[0m" 404 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:04:43] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:04:43] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:04:58] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:04:58] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:05:00] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:05:00] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:06:23] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:06:23] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:07:04] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:07:04] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:08:41] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:08:41] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:09:10] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:09:10] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:16] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:16] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:41] "GET /tractores/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:41] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:43] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:54] "GET /tractores/editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:54] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:58] "GET /tractores/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:10:58] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:11:03] "[32mPOST /tractores/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:11:03] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:11:03] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:root:Se eliminó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:11:09] "[32mGET /tractores/eliminar/4 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:11:09] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:11:09] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+ERROR:root:Could not build url for endpoint 'index'. Did you mean 'inicio' instead?
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:13:58] "GET /tractores HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+ERROR:root:Could not build url for endpoint 'index'. Did you mean 'inicio' instead?
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:13:59] "GET /tractores HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:14:35] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:14:35] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:14:59] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:14:59] "GET /static/styles/listado.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:15:00] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:15:02] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:24:16] "GET /index.html HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:24:18] "GET /choferes HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:25:20] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:25:20] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:02] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:02] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:12] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:12] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:14] "GET /index.html HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:15] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:15] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:17] "GET /index.html HTTP/1.1" 200 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:18] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:26:18] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:28:09] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:28:09] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:30:47] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:30:47] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:31:05] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:31:05] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:31:42] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:31:43] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:32:08] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:32:08] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:32:56] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:32:56] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:33:47] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:33:47] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:35:51] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:35:51] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:37:44] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:37:44] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:37:58] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:37:58] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:38:14] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:38:14] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:40:12] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:40:12] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:41:57] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:41:57] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:42:28] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:42:28] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:42:43] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:42:43] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:43:08] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:43:08] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:43:46] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:43:46] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:44:40] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:44:40] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:22] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:22] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:44] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:44] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:45] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:45] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:58] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:46:58] "GET /static/styles/index.css HTTP/1.1" 200 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:01] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:01] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:05] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:05] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:06] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:06] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:07] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:08] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:08] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:09] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:10] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:10] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:15] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:15] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:16] "GET /choferes/editar/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:16] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:32] "[32mPOST /choferes/editar/4 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:32] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:32] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:34] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:34] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:43] "[32mPOST /choferes/agregar HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:43] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:43] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:46] "GET /choferes/editar/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:46] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:48] "[32mPOST /choferes/editar/5 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:48] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:49] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:53] "[32mGET /choferes/eliminar/5 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:53] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:53] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:54] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:54] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:55] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:56] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:57] "GET /tractores/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:47:57] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:04] "[32mPOST /tractores/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:04] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:04] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:06] "GET /tractores/editar/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:06] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:09] "[32mPOST /tractores/editar/5 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:09] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:09] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:root:Se eliminó un tractor
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:11] "[32mGET /tractores/eliminar/5 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:11] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:11] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:12] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:12] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:14] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:14] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:16] "GET /remolques/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:16] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:22] "[32mPOST /remolques/agregar HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:22] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:22] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:23] "GET /remolques/editar/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:23] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:27] "[32mPOST /remolques/editar/4 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:27] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:27] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:root:Se eliminó un remolque
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:29] "[32mGET /remolques/eliminar/4 HTTP/1.1[0m" 302 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:29] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:29] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:32] "GET /remolques/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:32] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:35] "GET /remolques/editar/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:35] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 21:48:37] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:03:39] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:03:39] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:03:40] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:03:41] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:03:43] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:03:43] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:15:07] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:15:07] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:16:52] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:16:52] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los tractores
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:16:53] "GET /tractores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:16:53] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:17:07] "GET /tractores/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:17:07] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:18:00] "GET /index.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:18:00] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+INFO:root:Se obtuvieron los remolques
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:18:01] "GET /remolques HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:18:01] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:18:19] "GET /remolques/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:18:19] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\SISTEMAS8\\Documents\\GitHub\\Pyrhon-U2\\3-Flask\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-058-075
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:30:04] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:30:04] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:30:38] "GET /choferes/agregar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:30:38] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se agregó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:31:26] "[32mPOST /choferes/agregar HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:31:26] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:31:26] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:32:00] "GET /choferes/editar/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:32:00] "[36mGET /static/styles/formulario.css HTTP/1.1[0m" 304 -
+INFO:root:Se editó un chofer
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:32:35] "[32mPOST /choferes/editar/6 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:32:35] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:32:35] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:33:22] "[32mGET /choferes/eliminar/4 HTTP/1.1[0m" 302 -
+INFO:app:Se obtuvieron los choferes
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:33:22] "GET /choferes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 22:33:22] "[36mGET /static/styles/listado.css HTTP/1.1[0m" 304 -

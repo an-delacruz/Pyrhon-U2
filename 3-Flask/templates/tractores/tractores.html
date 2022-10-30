@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='styles/listado.css')}}"
+    />
+    <title>Tractores</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 align="center">Tractores</h2>
+      <div class="opciones">
+        <a href="{{url_for('inicio')}}">Index</a>
+        <a href="{{url_for('agregarTractor')}}">Agregar</a>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Número</th>
+              <th>Placas</th>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>-</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for tractor in tractores %}
+            <tr>
+              <td>{{tractor.numero}}</td>
+              <td>{{tractor.placas}}</td>
+              <td>{{tractor.marca}}</td>
+              <td>{{tractor.modelo}}</td>
+              <td>
+                <a href="{{url_for('editarTractor', id=tractor.id)}}">Editar</a>
+                <a href="{{url_for('eliminarTractor', id=tractor.id)}}"
+                  >Eliminar</a
+                >
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
